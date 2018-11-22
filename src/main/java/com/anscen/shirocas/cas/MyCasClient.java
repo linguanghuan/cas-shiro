@@ -1,5 +1,4 @@
-package com.anscen.shirocas.shiro;
-
+package com.anscen.shirocas.cas;
 
 import org.pac4j.cas.client.CasClient;
 import org.pac4j.cas.config.CasConfiguration;
@@ -9,11 +8,6 @@ import org.pac4j.core.context.session.SessionStore;
 import org.pac4j.core.redirect.RedirectAction;
 import org.pac4j.core.util.CommonHelper;
 
-/**
- * @author gongtao
- * @version 2018-07-06 9:41
- * @update 2018-08-29 升级 pac4j 版本到 4.0.0
- **/
 public class MyCasClient extends CasClient {
     public MyCasClient() {
         super();
@@ -27,7 +21,6 @@ public class MyCasClient extends CasClient {
      * (non-Javadoc)
      * @see org.pac4j.core.client.IndirectClient#getRedirectAction(org.pac4j.core.context.WebContext)
      */
-
     @Override
     public RedirectAction getRedirectAction(WebContext context) {
         this.init();

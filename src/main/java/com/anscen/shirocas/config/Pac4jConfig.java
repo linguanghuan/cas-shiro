@@ -1,6 +1,6 @@
 package com.anscen.shirocas.config;
 
-import com.anscen.shirocas.shiro.MyCasClient;
+import com.anscen.shirocas.cas.MyCasClient;
 import io.buji.pac4j.context.ShiroSessionStore;
 import org.pac4j.cas.client.CasClient;
 import org.pac4j.cas.config.CasConfiguration;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class Pac4jConfig {
-    /** 地址为：cas地址 */
+    /** cas服务器地址 */
     @Value("${cas.server.url}")
     private String casServerUrl;
 
@@ -21,7 +21,7 @@ public class Pac4jConfig {
     private String projectUrl;
 
     /** 相当于一个标志，可以随意 */
-    @Value("${cas.client-name}")
+    @Value("${spring.application.name}")
     private String clientName;
 
 
