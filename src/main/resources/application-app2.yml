@@ -1,0 +1,14 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: app2
+
+cas:
+  client-name: mfgClient
+  server:
+    url: http://127.0.0.1:8080/cas
+  project:
+    url: http://app2:8083
+

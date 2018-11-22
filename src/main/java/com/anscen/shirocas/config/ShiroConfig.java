@@ -41,7 +41,7 @@ public class ShiroConfig {
     private String casServerUrl;
 
     /** 客户端名称 */
-    @Value("${cas.client-name")
+    @Value("${cas.client-name}")
     private String clientName;
 
     @Bean("securityManager")
