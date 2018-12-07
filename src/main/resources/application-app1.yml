@@ -7,6 +7,6 @@ spring:
 
 cas:
   server:
-    url: http://127.0.0.1:8080/cas
+    url: http://cas.example.org:6080/cas
   project:
     url: http://app1:8082

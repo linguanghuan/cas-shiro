@@ -1,4 +1,4 @@
-package com.anscen.shirocas;
+package com.lingh.shirocas;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

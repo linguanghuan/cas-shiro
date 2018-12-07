@@ -8,7 +8,7 @@ spring:
 cas:
   client-name: mfgClient
   server:
-    url: http://127.0.0.1:8080/cas
+    url: http://cas.example.org:6080/cas
   project:
     url: http://app2:8083
 

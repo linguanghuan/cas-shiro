@@ -1,4 +1,4 @@
-package com.anscen.shirocas.shiro;
+package com.lingh.shirocas.shiro;
 
 import io.buji.pac4j.realm.Pac4jRealm;
 import io.buji.pac4j.subject.Pac4jPrincipal;

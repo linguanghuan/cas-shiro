@@ -1,4 +1,4 @@
-package com.anscen.shirocas;
+package com.lingh.shirocas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

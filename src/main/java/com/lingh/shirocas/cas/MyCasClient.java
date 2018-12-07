@@ -1,4 +1,4 @@
-package com.anscen.shirocas.cas;
+package com.lingh.shirocas.cas;
 
 import org.pac4j.cas.client.CasClient;
 import org.pac4j.cas.config.CasConfiguration;

@@ -1,6 +1,6 @@
-package com.anscen.shirocas.config;
+package com.lingh.shirocas.config;
 
-import com.anscen.shirocas.shiro.CasRealm;
+import com.lingh.shirocas.shiro.CasRealm;
 import io.buji.pac4j.filter.CallbackFilter;
 import io.buji.pac4j.filter.LogoutFilter;
 import io.buji.pac4j.filter.SecurityFilter;
